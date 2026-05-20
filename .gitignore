@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Local databases & vectors
+sessions.db
+vector_db/
+
+# Local media uploads & downloads
+downloads/
+uploads/
+
+# Environment secrets
+.env
+.env.local
+
+# Frontend node modules & build outputs
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+
+# OS files
+.DS_Store
+Thumbs.db
