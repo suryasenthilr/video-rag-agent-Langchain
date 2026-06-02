@@ -4,7 +4,7 @@ VideoQuery AI is a modern, premium, production-level AI SaaS application that al
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **Dual-Inflow Media Support**: Upload local audio/video files (MP3, WAV, MP4) or paste YouTube links.
 * **Auto-Language Detection & Routing**: Detects the spoken language automatically. English is processed locally via Whisper, and Indic languages (Hindi/Tamil) are routed to Sarvam AI.
@@ -15,7 +15,7 @@ VideoQuery AI is a modern, premium, production-level AI SaaS application that al
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Frontend**: React, Vite, Tailwind CSS, Lucide Icons.
 * **Backend**: FastAPI (Python), Uvicorn, SQLite (for session, source metadata, and chat history), ChromaDB (Vector DB).
@@ -23,7 +23,7 @@ VideoQuery AI is a modern, premium, production-level AI SaaS application that al
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 
 ```text
 ├── backend/                  # FastAPI web server
@@ -47,7 +47,7 @@ VideoQuery AI is a modern, premium, production-level AI SaaS application that al
 
 ---
 
-## ⚙️ Prerequisites & Setup
+## Prerequisites & Setup
 
 ### 1. System Dependencies
 The application requires **FFmpeg** to extract and convert audio files.
@@ -83,7 +83,7 @@ SARVAM_API_KEY=your_sarvam_api_key
 
 ---
 
-## 🏃 Running the Application
+## Running the Application
 
 To run the application, open two terminal windows:
 
